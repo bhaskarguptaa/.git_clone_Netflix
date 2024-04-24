@@ -1,0 +1,407 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./Images/home_bg.jpg); 
+    height: 700px;
+    width: 100%;
+    background-position: center;
+
+    border-bottom: solid 7px rgb(74, 74, 74);
+}
+
+.header-top{
+    display: flex;
+}
+
+.logo{
+    height: 100px;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-logo{
+    height: 55px;
+    width: 148px;
+}
+
+.btn{
+    height: 100px;
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 10%;
+}
+
+.btn-1{
+    height: 32px;
+    width: 126px;
+
+    padding: 6px;
+
+    color: white;
+    border: solid 1px white ;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.741);
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+    margin-left: 60%;
+}
+
+#btn-1-img{
+    height: 10px;
+    width: 10px;
+}
+
+#btn-2{
+    height: 32px;
+    width: 82px;
+    color: white;
+    background-color: red;
+    border: solid 1px red;
+    border-radius: 5px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+    margin-left: 25px;
+}
+
+#btn-2:hover{
+    background-color: rgb(214, 30, 30);
+    cursor: pointer;
+    border: solid 1px rgb(214, 30, 30);
+}
+
+.header-mid{
+    margin-top: 10%;
+    text-align: center;
+}
+
+#line-1{
+    color: white;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#line-2{
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+    margin-top: 20px;
+}
+
+#line-3{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+    margin-top: 20px;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 24px 16px 8px;
+}
+
+#email{
+    width: 375px;
+    height: 36px;
+    padding: 10px;
+
+    font-size: 16px; 
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+.getstarted{
+    height: 56px;
+    width: 203px;
+    margin-left: 10px;
+
+    color: white;
+    background-color: red;
+
+    border: solid 1px red;
+    border-radius: 5px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#r-arrow{
+    height: 15px;
+    width: 15px;
+}
+
+.getstarted:hover{
+    background-color: rgb(214, 30, 30);
+    cursor: pointer;
+    border: solid 1px rgb(214, 30, 30);
+}
+
+.section-2, .section-3, .section-4, .section-5{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+
+    border-bottom: solid 7px rgb(74, 74, 74);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    width: 50%;
+}
+
+#line-4, #line-5, #line-6, #line-7{
+    color: white;
+
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.content{
+    margin: 0px 30px;
+}
+
+#para-1, #para-2, #para-3, #para-4{
+    color: white;
+    margin: 16px 0px 0px;
+
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.tv{
+    width: 50%;
+}
+
+.st{
+    height: 95px;
+    width: 377px;
+
+    color: white;
+    background-color: black;
+
+    border: solid 1px gray;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+
+    margin-left: 18%;
+    margin-top: -19%;
+
+    position: relative;
+    z-index: 1;
+}
+
+.st-content{
+    display: flex;
+    align-items: center;
+}
+
+#st-poster{
+    height: 72px;
+    width: 51px;
+
+    margin-left: 15px;
+}
+
+#tag1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+
+    margin-left: 20px;
+}
+
+#tag2{
+    font: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: blue;
+
+    margin-left: 20px;
+}
+
+#download{
+    height: 20px;
+    width: 20px;
+
+    margin-left: 130px;
+}
+
+#tvmobile-img, #children-img{
+    margin-top: 50px;
+}
+
+.section-6{
+    height: 930px;
+    background-color: black;
+    border-bottom: solid 7px rgb(74, 74, 74);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 90%;
+    width: 95%;
+}
+
+#line-8{
+    color: white;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+.box{
+    height: 84px;
+    width: 80%;
+
+    margin-top: 15px;
+    margin-left: 10%;
+
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.que{
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+    margin-left:  20px;
+}
+
+#plus{
+    height: 30px;
+    width: 30px;
+
+    margin-right:  20px;
+}
+
+#line-9{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+footer{
+    height: 400px;
+    width: 100%;
+
+    border-bottom: solid 7px rgb(74, 74, 74);
+
+    background-color: black;
+}
+
+.last{
+    padding: 50px;
+}
+
+#last-line{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffb3;
+    font-weight: lighter;
+
+    margin-left: 13%;
+}
+
+.list-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list{
+    margin-top: 20px;
+}
+
+a{
+    color: #ffffffb3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.btn-2{
+    height: 32px;
+    width: 126px;
+
+    padding: 6px;
+
+    color: white;
+    border: solid 1px white ;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.741);
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+    margin-top: 2%;
+    margin-left: 13%;
+}
+
+#btn-2-img{
+    height: 10px;
+    width: 10px;
+}
+
+#name{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+    color: #ffffffb3;
+
+    margin-top: 2%;
+    margin-left: 13%;
+}
